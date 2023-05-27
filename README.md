@@ -1,57 +1,56 @@
-# Spaceship Titanic: Predicción de Pasajeros Transportados
+# Spaceship Titanic: Predicting Transported Passengers
 
-Este es el repositorio para la competición Kaggle "Spaceship Titanic: Predicción de Pasajeros Transportados". En este proyecto, utilizaremos técnicas de ciencia de datos y aprendizaje automático para predecir qué pasajeros fueron transportados a otra dimensión después del choque de la Spaceship Titanic con una anomalía espaciotemporal.
+This is the repository for the Kaggle competition "Spaceship Titanic: Predicting Transported Passengers". In this project, we will use data science and machine learning techniques to predict which passengers were transported to another dimension after the Spaceship Titanic collided with a spacetime anomaly.
 
-## Introducción
+## Introduction
 
-### Resumen del problema
+### Problem Summary
 
-Bienvenidos al año 2912, donde se necesitan tus habilidades en ciencia de datos para resolver un misterio cósmico. La Spaceship Titanic, un transatlántico interestelar, chocó con una anomalía espaciotemporal, lo que resultó en la desaparición de casi la mitad de sus pasajeros que fueron transportados a una dimensión alternativa. El desafío es predecir qué pasajeros fueron transportados utilizando los registros recuperados del sistema informático dañado de la nave.
+Welcome to the year 2912, where your data science skills are needed to solve a cosmic mystery. The Spaceship Titanic, an interstellar ocean liner, collided with a spacetime anomaly, resulting in the disappearance of almost half of its passengers who were transported to an alternate dimension. The challenge is to predict which passengers were transported using the recovered records from the ship's damaged computer system.
 
-### Conjunto de Datos
+### Dataset
 
-El conjunto de datos para esta competición contiene registros personales de los pasajeros a bordo del Spaceship Titanic antes del desafortunado incidente con la anomalía espaciotemporal. El repositorio contiene dos archivos principales:
+The dataset for this competition contains personal records of the passengers aboard the Spaceship Titanic prior to the unfortunate incident with the spacetime anomaly. The repository contains two main files:
 
-- `train.csv`: Contiene registros personales para aproximadamente dos tercios (~8700) de los pasajeros, que se utilizarán como datos de entrenamiento.
-- `test.csv`: Contiene registros personales para el tercio restante (~4300) de los pasajeros, que se utilizarán como datos de prueba.
+- `train.csv`: Contains personal records for approximately two-thirds (~8700) of the passengers, which will be used as training data.
+- `test.csv`: Contains personal records for the remaining one-third (~4300) of the passengers, which will be used as test data.
 
-Ambos archivos contienen información como identificación de pasajero, planeta de origen, estado de sueño criogénico, número de cabina, planeta de destino, edad, estado de VIP y gastos en diversas instalaciones de lujo en la nave.
+Both files include information such as passenger ID, home planet, cryogenic sleep status, cabin number, destination planet, age, VIP status, and expenses on various luxury facilities onboard the ship.
 
-### Características del conjunto de datos
+### Dataset Features
 
-Las principales características del conjunto de datos incluyen:
+The main features of the dataset include:
 
-- **PassengerId**: Identificador único para cada pasajero.
-- **Cabin**: Número de la cabina donde se aloja el pasajero.
-- **HomePlanet**: Planeta de origen del pasajero (Europa, Tierra o Marte).
-- **Destination**: Planeta de destino al que el pasajero iba a desembarcar.
-- **Age**: Edad del pasajero.
-- **CryoSleep**: Indicador de si el pasajero optó por entrar en animación suspendida durante el viaje.
-- **VIP**: Indicador de si el pasajero ha pagado por un servicio VIP especial durante el viaje.
-- **RoomService**, **FoodCourt**, **ShoppingMall**, **Spa**, **VRDeck**: Gastos del pasajero en diferentes comodidades de lujo.
-- **Name**: Nombre y apellido del pasajero.
-- **Transported**: Variable objetivo que indica si el pasajero fue transportado a otra dimensión.
+- **PassengerId**: Unique identifier for each passenger.
+- **Cabin**: Cabin number where the passenger is accommodated.
+- **HomePlanet**: Planet of origin for the passenger (Europa, Earth, or Mars).
+- **Destination**: Destination planet the passenger was intended to disembark.
+- **Age**: Age of the passenger.
+- **CryoSleep**: Indicator of whether the passenger opted for cryogenic sleep during the journey.
+- **VIP**: Indicator of whether the passenger has paid for a special VIP service during the journey.
+- **RoomService**, **FoodCourt**, **ShoppingMall**, **Spa**, **VRDeck**: Passenger's expenses on different luxury amenities.
+- **Name**: Passenger's name and surname.
+- **Transported**: Target variable indicating whether the passenger was transported to another dimension.
 
-## Metodología
+## Methodology
 
-La metodología recomendada para abordar este problema es a través de un proceso iterativo, que consta de los siguientes pasos:
+Methodology followed:
 
-1. Análisis exploratorio de datos (EDA) para comprender la distribución de las características y su relación con la variable objetivo.
-2. Limpieza de los datos, tratando los valores perdidos y eliminando o transformando los valores atípicos.
-3. Ingeniería de características para extraer la máxima información de las características disponibles.
-4. Entrenamiento de diferentes modelos de clasificación y validación de los mismos utilizando técnicas como la validación cruzada.
-5. Ajuste de hiperparámetros para mejorar el rendimiento del modelo.
-6. Evaluación de los modelos y selección del mejor modelo para hacer predicciones en el conjunto de prueba.
-7. Generación de predicciones en el conjunto de prueba y presentación de resultados.
+1. Exploratory Data Analysis (EDA) to understand the distribution of features and their relationship with the target variable.
+2. Data cleaning, addressing missing values, and removing or transforming outliers.
+3. Feature engineering to extract maximum information from the available features.
+4. Training different classification models and validating them using techniques like cross-validation.
+5. Hyperparameter tuning to improve the model's performance.
+6. Evaluation of the models and selection of the best-performing model for making predictions on the test set.
+7. Generating predictions on the test set and presenting the results.
 
-## Contribuciones y colaboración
+## Contributions and Collaboration
 
-Si estás interesado en colaborar en este proyecto, ¡eres bienvenido! Puedes hacer fork de este repositorio, trabajar en tu propia rama y enviar un pull request con tus contribuciones.
+If you're interested in contributing to this project, you're welcome to do so! You can fork this repository, work on your own branch, and submit a pull request with your contributions.
 
-## Licencia
+## Contact
 
-Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [LICENSE](./LICENSE) para más detalles.
+If you have any questions or want to get in touch regarding this project, you can email me at [josevillalbajimenez@gmail.com].
 
-## Contacto
 
-Si tienes alguna pregunta o quieres contactarme con respecto a este proyecto, puedes enviarme un correo electrónico a [josevillalbajimenez@email.com].
+
