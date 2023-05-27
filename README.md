@@ -44,6 +44,12 @@ Methodology followed:
 6. Evaluation of the models and selection of the best-performing model for making predictions on the test set.
 7. Generating predictions on the test set and presenting the results.
 
+## Usage
+1. Clone the repository.
+2. Open the notebook file (`spaceship-titanic.ipynb`) using Jupyter Notebook or JupyterLab.
+3. Execute each cell in the notebook sequentially to reproduce the analysis and predictions.
+4. Customize the notebook as needed for your own analysis.
+
 ## Contributions and Collaboration
 
 If you're interested in contributing to this project, you're welcome to do so! You can fork this repository, work on your own branch, and submit a pull request with your contributions.
@@ -52,5 +58,8 @@ If you're interested in contributing to this project, you're welcome to do so! Y
 
 If you have any questions or want to get in touch regarding this project, you can email me at [josevillalbajimenez@gmail.com].
 
+## Acknowledgments
+This notebook was created for the "Prediction of Wild Blueberry Yield" competition. The dataset and competition details can be found at [competition-link].
 
+[competition-link]: [https://www.example.com](https://www.kaggle.com/competitions/playground-series-s3e14)
 
