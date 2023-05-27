@@ -59,6 +59,6 @@ If you're interested in contributing to this project, you're welcome to do so! Y
 If you have any questions or want to get in touch regarding this project, you can email me at [josevillalbajimenez@gmail.com].
 
 ## Acknowledgments
-This notebook was created for the "Spaceship Titanic" competition. The dataset and competition details can be found at "[Spaceship Titanic: Predicting Transported Passengers](competition-link)
+This notebook was created for the "Spaceship Titanic" competition. The dataset and competition details can be found at "[Spaceship Titanic: Predicting Transported Passengers][competition-link]
 
 [competition-link]: https://www.kaggle.com/competitions/spaceship-titanic/overview
